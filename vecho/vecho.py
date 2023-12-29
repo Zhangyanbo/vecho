@@ -3,7 +3,7 @@ Author: Yanbo Zhang
 Date: Dec 27, 2023 EST
 
 Description:
-    Beam is a simple vector database that supports vector insertion, deletion, update and query.
+    Vecho is a simple vector database that supports vector insertion, deletion, update and query.
     It stores (vector, id) pairs and supports query.
 """
 import numpy as np
@@ -22,7 +22,7 @@ def _check_id_type(id: Union[str, List[str]]):
         raise ValueError("ID must be str or list of str")
 
 
-class Beam:
+class Vecho:
     def __init__(self, dim, method='cosine'):
         self.dim = dim
         self.vector = None

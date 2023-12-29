@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='beam',
+    name='vecho',
     version='0.1.0',
     packages=find_packages(),
     description='simple, fast vector database',
@@ -9,7 +9,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Yanbo Zhang',
     author_email='zhangybspm@gmail.com',
-    url='https://github.com/Zhangyanbo/beam',
+    url='https://github.com/Zhangyanbo/vecho',
     install_requires=[
         'numpy'
     ],

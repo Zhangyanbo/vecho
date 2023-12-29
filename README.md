@@ -1,2 +1,2 @@
-# beam
+# Vecho
 simple, fast vector database
